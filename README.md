@@ -1,5 +1,7 @@
 # Semantic Book Recommender
 
+https://huggingface.co/spaces/morbidflames/Semantic_Book_Recommendation
+
 This project implements a **semantic-based book recommendation system** using Natural Language Processing (NLP) and embeddings.   
 Instead of relying only on metadata or ratings, the system understands the semantic meaning of book descriptions and recommends similar books based on context.  
 
@@ -23,12 +25,3 @@ Instead of relying only on metadata or ratings, the system understands the seman
 ├── semantic_book_recommender.py # Main script for generating recommendations  
 ├── books.csv # Dataset of books with descriptions  
 └── requirements.txt # Python dependencies  
-
-
-## Requirements
-- Python 3.x  
-- Libraries:  
-  - pandas  
-  - numpy  
-  - scikit-learn  
-  - sentence-transformers (for embeddings)  
